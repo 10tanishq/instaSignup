@@ -1,0 +1,158 @@
+/* src/components/Signup.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.signup-container {
+    width: 80vw; /* Increased width */
+    max-width : 500px;
+    padding: 1rem;
+    background-color: #fafafa;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header .instagram-logo {
+    margin: 20px ;
+    width: 175px;
+}
+
+.facebook-login {
+    display: block;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.divider {
+    margin: 20px 0;
+    position: relative;
+    font-weight: bold;
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider:before, .divider:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider:before {
+    margin-right: 10px;
+}
+
+.divider:after {
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 0.3rem;
+    width: 100%;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 11px;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    color: hwb(209 11% 7%);
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3faaf2; /* Lighter blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.login-button:enabled {
+    background-color: #0095f6; /* Darker blue */
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 10.5px; /* Reduced font size */
+}
+
+.signup-link a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* .footer {
+    text-align: center;
+    font-size: 10px;
+    color: #8e8e8e;
+    margin-top: 30px;
+    height:10wh;
+} */
+
+
+.footer {
+    /* height: 30%;  */
+    background-color: #fafafa;
+    border-top: 1px solid #dbdbdb; /* 1px line separating footer */
+    text-align: center;
+    font-size: 80%;
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .meta-logo {
+    width: 80px;
+}
+
+@media (max-width: 600px) {
+    .signup-container {
+        padding: 1rem;
+    }
+
+    .header .instagram-logo {
+        width: 150px;
+    }
+
+    .footer .meta-logo {
+        width: 60px;
+    }
+}
