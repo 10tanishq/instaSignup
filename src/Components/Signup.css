@@ -10,8 +10,8 @@ body {
 }
 
 .signup-container {
-    width: 80vw; /* Increased width */
-    max-width : 500px;
+    width: 70vw; /* Increased width */
+    max-width : 400px;
     padding: 1rem;
     background-color: #fafafa;
     text-align: center;
@@ -25,10 +25,10 @@ body {
 
 .facebook-login {
     display: block;
-    background-color: #0095f6;
+    background-color: #018ae6;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 7px;
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
@@ -38,7 +38,7 @@ body {
     margin-bottom: 20px;
     box-sizing: border-box;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .divider {
@@ -76,17 +76,18 @@ body {
     padding: 10px;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 13px;
     box-sizing: border-box;
 }
 
 .forgot-password {
     color: hwb(209 11% 7%);
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     display: block;
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .login-button {
@@ -100,7 +101,8 @@ body {
     margin-top: 10px;
     box-sizing: border-box;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .login-button:enabled {
@@ -108,8 +110,8 @@ body {
 }
 
 .signup-link {
-    margin-top: 15px;
-    font-size: 10.5px; /* Reduced font size */
+    margin-top: 25px;
+    font-size: 13px; /* Reduced font size */
 }
 
 .signup-link a {
@@ -130,8 +132,8 @@ body {
 .footer {
     /* height: 30%;  */
     background-color: #fafafa;
-    border-top: 1px solid #dbdbdb; /* 1px line separating footer */
-    text-align: center;
+    /* border-top: 1px solid #dbdbdb; 1px line separating footer */
+    text-align: center ;
     font-size: 80%;
     color: #8e8e8e;
     display: flex;
@@ -140,7 +142,7 @@ body {
 }
 
 .footer .meta-logo {
-    width: 80px;
+    width: 90px;
 }
 
 @media (max-width: 600px) {
